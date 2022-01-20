@@ -12,7 +12,7 @@ while x<3:
 		if x < 3:
 			print('密碼錯誤! 還有%d次機會'%(3-x))
 		else:
-			print('3次密碼錯誤! 冷卻30秒')
+			print('輸入密碼3次錯誤! 冷卻30秒')
 	else:
 		print('登入成功')
 		x=3
