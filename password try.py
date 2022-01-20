@@ -2,9 +2,7 @@
 
 x = 0
 correct = 'a123456'
-print('最多輸入三次密碼')
 print()
-
 while x<3:
 	passw = input("請輸入密碼: ")
 	if passw != correct:
